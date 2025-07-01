@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        orbitron: ['Orbitron', 'sans-serif'],
+          spacetron: ['Spacetron', 'sans-serif'],
       },
       backgroundImage: {
         space: "url('/dan-gold.jpg')",

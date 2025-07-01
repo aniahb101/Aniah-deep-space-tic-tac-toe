@@ -1,20 +1,24 @@
-import './globals.css';
-import { ReactNode } from 'react';
-import Head from 'next/head';
+import './globals.css'
+import { ReactNode } from 'react'
+
+export const metadata = {
+  title: 'Deep Space Tic-Tac-Toe',
+  description: 'Built with Next.js, Tailwind, and stars ✨',
+   icons: {
+    icon: '/favicon.ico', 
+  },
+}
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
-        <title>Deep Space Tic-Tac-Toe</title>
-      </Head>
-      <body className="min-h-screen bg-space bg-cover bg-center text-foreground font-orbitron antialiased">
+      <body className="relative min-h-screen text-foreground font-spacetron antialiased">
+        <div className="absolute inset-0 bg-space bg-cover bg-center -z-10" />
+        
         {children}
       </body>
     </html>
   )
 }
+
 

@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Spacetron';
+  src: url('/fonts/Spacetron.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  @apply font-orbitron bg-black text-white min-h-screen flex flex-col items-center;
+  @apply font-spacetron text-white min-h-screen flex flex-col items-center;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+background: url('/bg-stars.png') repeat;
+background-size: 512px;
+  animation: twinkle 40s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes twinkle {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1000px 500px;
+  }
 }
