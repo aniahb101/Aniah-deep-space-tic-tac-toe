@@ -9,6 +9,13 @@
   font-style: normal;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   @apply font-spacetron text-white min-h-screen flex flex-col items-center;
   position: relative;

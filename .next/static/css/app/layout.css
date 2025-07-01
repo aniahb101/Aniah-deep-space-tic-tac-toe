@@ -502,6 +502,9 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+.fixed {
+  position: fixed;
+}
 .absolute {
   position: absolute;
 }
@@ -526,6 +529,9 @@ video {
 }
 .mt-1 {
   margin-top: 0.25rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
 }
 .flex {
   display: flex;
@@ -741,6 +747,9 @@ video {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.opacity-60 {
+  opacity: 0.6;
+}
 .shadow-\[0_0_40px_rgba\(255\2c 255\2c 255\2c 0\.05\)\] {
   --tw-shadow: 0 0 40px rgba(255,255,255,0.05);
   --tw-shadow-colored: 0 0 40px var(--tw-shadow-color);
@@ -808,6 +817,13 @@ video {
   font-weight: normal;
   font-style: normal;
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 
 body {
   display: flex;

@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="relative min-h-screen text-foreground font-spacetron antialiased">
-        <div className="absolute inset-0 bg-space bg-cover bg-center -z-10" />
+<div className="fixed inset-0 bg-space bg-cover bg-center -z-10" />
         
         {children}
       </body>
