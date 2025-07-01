@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Deep Space Tic-Tac-Toe',
   description: 'Built with Next.js, Tailwind, and stars ✨',
    icons: {
-    icon: '/favicon.ico', 
+    icon: '/astrofav.ico', 
   },
 }
 

@@ -1,19 +1,22 @@
-# Deep Space Tic-Tac-Toe
+# 🌌 Deep Space Tic-Tac-Toe
 
-This repository contains a minimal Next.js 15 project using React 19. It includes Tailwind CSS, basic setup for shadcn/ui components, and a simple Tic-Tac-Toe game with a scoreboard.
+A sleek, minimal Tic-Tac-Toe game built with **Next.js 15**, **React 19**, **Tailwind CSS**, and **shadcn/ui**. Play head-to-head with a futuristic interface and track your score. Built for learning, fun, and expandability.
 
-## Getting Started
+![Deep Space Gameplay](./public/deepspace.gif) 
 
-Install dependencies (requires Node 20+):
+## 🚀 Features
+
+- ✅ React 19 + Next.js 15
+- 🎨 Styled with Tailwind CSS
+- 🧩 shadcn/ui component library integration
+- 🕹️ 2-player local gameplay
+- 📊 Live scoreboard
+
+## 🛠️ Getting Started
+
+**Node.js v20+ required**
+
+Install dependencies:
 
 ```bash
 npm install
-```
-
-Run the development server:
-
-```bash
-npm run dev
-```
-
-Then open [http://localhost:3000](http://localhost:3000) to see the app.
