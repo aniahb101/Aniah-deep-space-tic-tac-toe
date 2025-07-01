@@ -1,14 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{js,ts,jsx,tsx}'
+    './src/app/**/*.{js,ts,jsx,tsx}',       
+    './src/components/**/*.{js,ts,jsx,tsx}', 
+    './src/pages/**/*.{js,ts,jsx,tsx}',      
   ],
   theme: {
     extend: {
       fontFamily: {
-        orbitron: ['Orbitron', 'sans-serif']
-      }
-    }
+        orbitron: ['Orbitron', 'sans-serif'],
+      },
+      backgroundImage: {
+        space: "url('/dan-gold.jpg')",
+      },
+    },
   },
+  darkMode: 'class',
   plugins: [],
-};
+}

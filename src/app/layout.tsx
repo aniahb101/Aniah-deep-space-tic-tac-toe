@@ -11,9 +11,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
         <title>Deep Space Tic-Tac-Toe</title>
       </Head>
-      <body>
+      <body className="min-h-screen bg-space bg-cover bg-center text-foreground font-orbitron antialiased">
         {children}
       </body>
     </html>
-  );
+  )
 }
+
