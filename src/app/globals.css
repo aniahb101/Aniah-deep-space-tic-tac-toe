@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-orbitron bg-black text-white min-h-screen flex flex-col items-center;
+}
